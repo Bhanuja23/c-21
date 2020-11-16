@@ -16,7 +16,7 @@ function setup() {
 }
 
 function draw() {
-  background(0,0,0);  
+  background("black");  
   movingRect.x = World.mouseX;
   movingRect.y = World.mouseY;
   if(isTouching(ob2,movingRect)){
